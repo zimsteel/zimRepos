@@ -34,6 +34,7 @@ var obj = {
             tables += "</tr>";
         }
         $('#tableArea').html(tables);
+        //버튼 이벤트 달기.
         $('button').click((e) => { obj.fn(e.target.id); });
         obj.lotation();
     },

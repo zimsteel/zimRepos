@@ -14,6 +14,7 @@ var ft = (
           const count = 45;
           // const Num_List = [...Array(45).keys()]; //0 ~ 44
           const Num_List = Array(45).fill().map( (element, index) => { return index+1; } ); // 1 ~ 45
+          //Array(45).fill().map( (element, index) => { return index+1; } ); 
           // Num_List.sort( (a,b) => {return a-b;} );
           //public
           return{
