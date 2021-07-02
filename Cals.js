@@ -86,7 +86,6 @@ var cals = {
         }catch(e){
             console.log(e.toString());
             throw "Exception-!!!";
-            //throw "Exception"
         }finally{
             console.log('parseNum : ' + Number.parseFloat(num).toFixed(3));
         }
