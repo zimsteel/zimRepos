@@ -70,5 +70,6 @@ var obj = {
     even : month => {
         alert(month);
         // $('#alerts').html(month);
+        // $('').html();
     }
 }
