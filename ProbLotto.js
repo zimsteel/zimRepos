@@ -138,6 +138,7 @@ var obj = {
           }//-->for END
           datas.forEach( (item, index, array) => {
               console.log(index + " : " + item);
+              //console.log(index + " : " + item);
           });
     }
 
