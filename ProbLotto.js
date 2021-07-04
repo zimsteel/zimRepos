@@ -128,7 +128,7 @@ var obj = {
     }
     ,
     Ncount : () => {
-          /* Array.from()으로 길이가 46, 값이 0인 배열 생성 */
+          /* Array.from()으로 길이가 46, 값이 0인 배열 생성 */  
           const datas = Array.from({length: 46}, () => 0);
           let   val ;
           for(let c = 0 ; c < 1000000 ; c++){
