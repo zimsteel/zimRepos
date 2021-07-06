@@ -47,8 +47,6 @@ var obj = {
 
     },
     dp : () => {
-          //to do !
-          
           //TO DO
           console.log('dp');
     },
