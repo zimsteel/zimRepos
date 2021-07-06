@@ -49,6 +49,8 @@ var obj = {
     dp : () => {
           //to do !
           
+          //TO DO
+          console.log('dp');
     },
     fn : (id) => {
           // console.log(id + ' : ' + typeof(id));
