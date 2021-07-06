@@ -14,7 +14,6 @@ var ft = (
           const count = 45;
           // const Num_List = [...Array(45).keys()]; //0 ~ 44
           const Num_List = Array(45).fill().map( (element, index) => { return index+1; } ); // 1 ~ 45
-          //Array(45).fill().map( (element, index) => { return index+1; } ); 
           // Num_List.sort( (a,b) => {return a-b;} );
           //public
           return{
@@ -128,7 +127,7 @@ var obj = {
     }
     ,
     Ncount : () => {
-          /* Array.from()으로 길이가 46, 값이 0인 배열 생성 */  
+          /* Array.from()으로 길이가 46, 값이 0인 배열 생성 */
           const datas = Array.from({length: 46}, () => 0);
           let   val ;
           for(let c = 0 ; c < 1000000 ; c++){
